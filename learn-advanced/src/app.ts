@@ -35,14 +35,6 @@ function add(a: Combinable, b: Combinable){
 const result = add("Max",5) as string
 result.split(" ")
 
-const fetchedUserData = {
-  id: 'u1',
-  name: 'Max',
-  job: {title: 'CEO', description: 'My own company'}
-}
-
-console.log(fetchedUserData?.job?.title)
-
 // type UnkownEmployee = Employee | Admin;
 
 // function printEmployeeInformation(emp: UnkownEmployee){
